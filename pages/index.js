@@ -27,14 +27,8 @@ export default function Home() {
     let isImgStr = typeof image === "string";
     let Img = image;
     if (isImgStr) {
-      if (window.location.host.includes("localhost:")) {
-        isImgStr = false;
-        console.log(33, image)
-        Img = await (await fetch(image)).arrayBuffer();
-      }
-      else {
-        Img = `${window.location.protocol}/${window.location.host}${image}`;
-      }
+      isImgStr = false;
+      Img = await (await fetch(image)).arrayBuffer();
     }
     let suff = isImgStr ? `?image=${Img}` : '';
     let resp;
@@ -109,7 +103,7 @@ export default function Home() {
                   auto color={"secondary"} onPress={DetectEmojis}>
                   {clicked ? <><Loading type="points-opacity" color="currentColor" size="sm" />
                     <p style={{ marginLeft: 10 }}>Loading</p> </>
-                    : 'Detect Emojis'}
+                    : 'Get Emojis'}
                 </Button>}
                 <Button css={{
                   marginLeft: 14,
