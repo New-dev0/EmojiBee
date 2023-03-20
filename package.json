@@ -1,0 +1,24 @@
+{
+  "name": "emojini",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "next": "13.2.4",
+    "next-sitemap": "^4.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-nextjs-toast": "^1.2.5"
+  },
+  "devDependencies": {
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4"
+  }
+}

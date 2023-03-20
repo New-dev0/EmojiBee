@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://emojibee.newdev0.in
+
+# Sitemaps
+Sitemap: https://emojibee.newdev0.in/sitemap.xml
