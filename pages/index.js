@@ -122,7 +122,7 @@ export default function Home() {
           {!image && <>
             <input style={{
               marginTop: image ? "20px" : 0,
-              width: isMob ? "80%" : null
+              width: isMob ? "98%" : null
             }} onChange={e => setImage(e.currentTarget.files[0])} className={styles.input} type="file" accept="image/*, camera" />
             <Spacer y={2} />
             <Divider style={{

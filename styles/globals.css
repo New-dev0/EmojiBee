@@ -4,7 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(182, 176, 200);
+  background: linear-gradient(rgb(120, 157, 154), rgba(122, 180, 180, 0.445))
 }
 
 img {
@@ -36,6 +36,6 @@ a {
 
   body {
     color: white;
-    background: rgba(8, 10, 4, 0.889);
+    background: rgba(9, 11, 21, 0.867);
   }
 }
