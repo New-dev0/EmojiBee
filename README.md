@@ -1,6 +1,5 @@
 # EmojiBee
-
-Generate Emojis from Images.
+Emojibee combines the power of BLIP image captioning and GPT3 to suggest emojis for an image
 
 ![](./emojibee.png)
 
@@ -20,5 +19,5 @@ Generate Emojis from Images.
 
 ```
 > #Output
-['🐻', '🐻', '🤗', '🙋', '♂',  '🗻', '🌲', '🤔', '💭']
+['🐻', '🤗', '🙋', '♂',  '🗻', '🌲', '🤔', '💭']
 ```
